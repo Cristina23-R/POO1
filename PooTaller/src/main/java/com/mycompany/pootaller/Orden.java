@@ -29,7 +29,7 @@ public class Orden {
 
     public Orden() {
     }
-    
+
     public int getOrdenid() {
         return Ordenid;
     }
@@ -69,7 +69,9 @@ public class Orden {
     public void setDescuento(double descuento) {
         this.descuento = descuento;
     }
-    
-    
-    
+
+    public void imprimir() {
+        System.out.println(Clienteid);
+    }
+
 }
